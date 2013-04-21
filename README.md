@@ -5,17 +5,17 @@ please take a look at http://developer.worldweatheronline.com
 ## Usage
 
 include weather package into your app. and initialise configuration
-    var weather = require('weather');
-    weather.config({api_key: 'your secret api key goes here'});
+  var weather = require('weather');
+  weather.config({api_key: 'your secret api key goes here'});
    
 Get forecast for the location noted in first param. 
-   weather.forecast('london', {cc:'yes'}, function(err,result){
-      if (err) console.log(err);
-      console.log(result);
-    });
+  weather.forecast('london', {cc:'yes'}, function(err,result){
+    if (err) console.log(err);
+    console.log(result);
+  });
 
 Search for available weather locations.
-    weather.search(query, options, cb);
+  weather.search(query, options, cb);
 
 For more information please take a look at http://developer.worldweatheronline.com/
 Also for available options you can always scour through comments in code.
