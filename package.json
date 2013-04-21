@@ -1,6 +1,6 @@
 {
   "name": "weatherapi",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A module to retrieve information about weather from api.worldweatheronline.com",
   "main": "index.js",
   "scripts": {
