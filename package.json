@@ -1,0 +1,28 @@
+{
+  "name": "weather",
+  "version": "0.0.2",
+  "description": "A module to retrieve information about weather from api.worldweatheronline.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mariuskubilius/weather.git"
+  },
+  "keywords": [
+    "weather",
+    "World",
+    "Weather",
+    "Online"
+  ],
+  "author": "Marius Kubilius",
+  "license": "BSD",
+  "dependencies": {
+    "request": "~2.16.6",
+    "underscore": "~1.4.4"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "91bf204c2fb083b66eeb744aa80c719c000fcd02",
+  "devDependencies": {}
+}
