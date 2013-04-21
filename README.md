@@ -6,7 +6,7 @@ please take a look at http://developer.worldweatheronline.com
 
 include weather package into your app. and initialise configuration
 
-    var weather = require('weather');
+    var weather = require('weatherapi');
     weather.config({api_key: 'your secret api key goes here'});
    
 Get forecast for the location noted in first param. 
