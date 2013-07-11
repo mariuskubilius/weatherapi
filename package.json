@@ -1,6 +1,6 @@
 {
   "name": "weatherapi",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A module to retrieve information about weather from api.worldweatheronline.com",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "author": "Marius Kubilius",
   "license": "BSD",
   "dependencies": {
-    "underscore": "~1.4.*"
+    "underscore": "*"
   },
   "readmeFilename": "README.md",
   "gitHead": "91bf204c2fb083b66eeb744aa80c719c000fcd02",
